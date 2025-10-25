@@ -1,1 +1,3 @@
-BEGIN FILE F(KIND=REMOTE); EBCDIC ARRAY E[0:11]; REPLACE E BY "HELLO WORLD!"; WHILE TRUE DO BEGIN WRITE(F, *, E); END; END.
+begin
+   print("Hello, World!");
+end.
