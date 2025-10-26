@@ -1,1 +1,4 @@
-echo "Hello World in Nim"
+proc main() =
+  echo "Hello, World!"
+
+main()
