@@ -1,0 +1,5 @@
+// Hello World in Koka
+
+fun main() {
+  println("Hello, World!")
+}
