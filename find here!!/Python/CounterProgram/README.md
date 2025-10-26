@@ -11,7 +11,7 @@ It greets the user, asks for a positive number, counts from **1 up to that numbe
 
 The program is designed to help beginners understand:  
 - Basic input/output (`input`, `print`)  
-- Loops (`for`)  
+- Loops (`while`)  
 - Conditional statements (`if`)  
 
 ---
