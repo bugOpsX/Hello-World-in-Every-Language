@@ -1,0 +1,6 @@
+foreign "C" printf(bits8 fmt[]);
+
+export main() {
+  printf("Hello, World!\n");
+  return(0);
+}
