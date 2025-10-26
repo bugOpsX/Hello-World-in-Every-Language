@@ -52,7 +52,7 @@ Do you want to count again? (y/n): n
 Thanks for using the Friendly Counter! Goodbye 👋
 ```
 
-## 🎓 Fun Fact
+## Fun Fact
 Python was named after the British comedy show Monty Python’s Flying Circus, not the snake! 🐍
 
 ## References
