@@ -1,11 +1,11 @@
-# 🐍 Friendly Python Counter
+# Python Counter Program
 
 **Year Created:** 2025  
 **Creator:** Old-boy-80  
 
 ---
 
-## 🧮 Description
+## Description
 This is a simple, beginner-friendly **Python counter program**.  
 It greets the user, asks for a positive number, counts from **1 up to that number**, and allows the user to repeat or exit.  
 
@@ -16,7 +16,7 @@ The program is designed to help beginners understand:
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Using Terminal
 
@@ -24,17 +24,18 @@ The program is designed to help beginners understand:
 2. Run the program with:
 
 ```bash
-python friendly_counter.py
-or (depending on your system):
-
-bash
-Copy code
+python3 counter.py
+```
+If you're using a system where python3 is not recognized, try one of the following:
+```bash
+python counter.py
+or
 python3 friendly_counter.py
-Follow the on-screen instructions.
+```
 
-🧩 Example Output
-vbnet
-Copy code
+Follow the on-screen instructions.
+### Example Output
+```bash
 Hello! Welcome to the Friendly Python Counter 👋
 Please enter a positive number to count up to: 5
 
@@ -49,5 +50,10 @@ Done counting!
 
 Do you want to count again? (y/n): n
 Thanks for using the Friendly Counter! Goodbye 👋
-🎓 Fun Fact
+```
+
+## 🎓 Fun Fact
 Python was named after the British comedy show Monty Python’s Flying Circus, not the snake! 🐍
+
+## References
+This program addresses Issue #67: Create Counter Program in Python with a Clear README
