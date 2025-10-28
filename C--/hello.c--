@@ -1,0 +1,26 @@
+/*
+ * C-- program that prints "Hello, World!" to standard output.
+ * C-- is an intermediate language designed for generating machine code easily.
+ */
+
+// A simple approach using external functions, typical in C-- style:
+.section "code"
+{
+  // Assume a standard library function like 'puts' exists for printing a string.
+  // The address of the string is loaded into a register, and 'puts' is called.
+
+  // Load the address of the "Hello, World!\n" string into register R1 (example architecture)
+  R1 = global_string_address("hello_string"); 
+  
+  // Call the external 'puts' function (which handles the printing)
+  call_external("puts"); 
+
+  // Call the external 'exit' function to terminate the program cleanly
+  call_external("exit"); 
+}
+
+.section "data"
+{
+  // Define the string data to be printed, ending with a newline and a null terminator.
+  "hello_string": ascii "Hello, World!\n", 0; 
+}
