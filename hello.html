@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello World Collection — Contribution Guide</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: radial-gradient(circle at top left, #0b1224, #050910);
+  color: #e4f2ff;
+  line-height: 1.6;
+  padding: 20px;
+}
+.container {
+  max-width: 950px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  padding: 25px 30px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+h1 {
+  color: #00e0ff;
+  text-align: center;
+  margin-bottom: 5px;
+}
+h2 {
+  color: #8b5cf6;
+  margin-top: 30px;
+}
+p, li, pre, code {
+  color: #d6e2f0;
+}
+pre {
+  background: rgba(0,0,0,0.3);
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+code {
+  color: #79ffb5;
+}
+ul { margin-left: 20px; }
+a {
+  color: #00e0ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 8px 6px 0 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8b5cf6, #00e0ff);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #9fb4c9;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 12px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🌍 Hello World Collection — Contribution Guide</h1>
+  <p style="text-align:center;">Add Hello World programs in new languages, learn syntax differences, and join a global collaborative project.</p>
+
+  <h2>📁 Folder Structure</h2>
+  <pre><code>languages/
+└── Language-Name/
+    ├── hello.&lt;ext&gt;    
+    └── README.md       
+</code></pre>
+
+  <h2>🌟 Why Contribute?</h2>
+  <ul>
+    <li>Learn new programming languages hands-on</li>
+    <li>Understand syntax differences across languages</li>
+    <li>Showcase your coding portfolio</li>
+    <li>Be part of a global learning community</li>
+  </ul>
+
+  <h2>🛠 How to Contribute</h2>
+  <ol>
+    <li><b>Fork</b> the repository.</li>
+    <li><b>Clone</b> it and create a new branch:
+      <pre><code>git clone https://github.com/&lt;your-username&gt;/hello-world-collection.git
+cd hello-world-collection
+git checkout -b add-&lt;language&gt;</code></pre>
+    </li>
+    <li><b>Create a new folder</b> inside <code>languages/</code> named after your language.</li>
+    <li><b>Add your files:</b>
+      <pre><code>hello.&lt;ext&gt;     
+README.md       </code></pre>
+    </li>
+    <li><b>Commit & push changes:</b>
+      <pre><code>git add .
+git commit -m "Add Hello World for &lt;Language&gt;"
+git push origin add-&lt;language&gt;</code></pre>
+    </li>
+    <li><b>Submit a Pull Request (PR)</b> and wait for review 🚀</li>
+  </ol>
+
+  <h2>🧾 README.md Template</h2>
+  <pre><code># Language-Name — Hello World
+
+**Year Created:** 2025  
+**Creator:** Your Name (@your-username)
+
+## Compile / Run
+Explain how to run it:
+
