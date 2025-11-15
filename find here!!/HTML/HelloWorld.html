@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        body {
+            background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Pretty-wallpaper-for-walls-HD.jpg), linear-gradient(135deg, rgb(185, 5, 201), rgb(190, 5, 210),purple);
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin: 0;
+            font-family: cursive;
+        }
+        
+        .block {
+            font-weight: 900;
+            font-size: 12vh;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+        }
+
+        #text {
+            color:rgb(255, 208, 148);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .word {
+            display: flex;
+            gap: 0px;
+        }
+        
+        span {
+            display: inline-block;
+            font-weight: bold;
+            animation: oscillate 2s ease-in-out infinite;
+            -webkit-animation: oscillate 2s ease-in-out infinite;
+        }
+
+        /* Staggers (same as before) */
+        span:nth-child(1) { animation-delay: 0s; -webkit-animation-delay: 0s; }
+        span:nth-child(2) { animation-delay: 0.2s; -webkit-animation-delay: 0.2s; }
+        span:nth-child(3) { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
+        span:nth-child(4) { animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
+        span:nth-child(5) { animation-delay: 0.8s; -webkit-animation-delay: 0.8s; }
+        span:nth-child(6) { animation-delay: 1.0s; -webkit-animation-delay: 1.0s; }
+
+        @keyframes oscillate {
+            0%, 100% {
+                transform: translateY(0);
+                -webkit-transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h1 id="text">
+            <div class="word">
+                <span>H</span>
+                <span>E</span>
+                <span>L</span>
+                <span>L</span>
+                <span>O</span>
+            </div>
+            <div class="word">
+                <span>W</span>
+                <span>O</span>
+                <span>R</span>
+                <span>L</span>
+                <span>D</span>
+                <span>!</span>
+            </div>
+        </h1>
+    </div>
+</body>
+</html>

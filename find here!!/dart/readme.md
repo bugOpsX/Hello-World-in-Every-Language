@@ -1,19 +1,25 @@
-Dart
+# Dart
 
-Year Created: 2011
-Creator: Lars Bak and Kasper Lund (Google)
+**Year Created:** 2011
+**Creator:** Lars Bak & Kasper Lund (Google)
 
-💻 Program File: hello.dart
+---
 
+## 💻 Program File: `hello.dart`
+
+```
 void main() {
   print('Hello, World!');
 }
+```
 
+# ⚙️ Compile & Run
 
-⚙️ Run
-
+```
 dart run hello.dart
+```
 
-
-🧠 Fun Fact
-Dart was developed by Google to make web and mobile app development fast and efficient. It’s the language behind the Flutter framework, which allows developers to build cross-platform apps for Android, iOS, web, and desktop — all from a single codebase. Dart’s syntax is clean, modern, and feels familiar to those coming from JavaScript or Java.
+# 🧠 Fun Fact
+Dart was designed by Google as a modern, fast, and developer-friendly language for building web and mobile apps.
+It powers Flutter, one of the most popular frameworks for creating beautiful cross-platform apps from a single codebase.
+Its syntax is clean and familiar to developers coming from C-style languages like JavaScript, Java, or C#.
